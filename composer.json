@@ -1,0 +1,28 @@
+{
+    "name": "zucommunications/php-unit-report-generator-bundle",
+    "description": "This bundle is used to generate an excel user friendly report based off the output of phpunits xml generated file",
+    "type": "symfony-bundle",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "yectep/phpspreadsheet-bundle": "^0.2.0",
+        "symfony/framework-bundle": "^5.4",
+        "symfony/console": "^5.4",
+        "symfony/dotenv": "5.4.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPUnitReportGeneratorBundle\\": "src/"
+        }
+    }
+}
