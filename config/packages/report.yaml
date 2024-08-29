@@ -1,2 +1,2 @@
-phpunit_report_generator:
+report:
   output_path: '/var/www/html/public'

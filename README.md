@@ -7,8 +7,7 @@ To install this bundle, use Composer:
 ```composer require zucommunications/php-unit-report-generator-bundle```
 
 ## Usage
-Once installed, this bundle adds the dashboard:generate-test-report command to your Symfony project.
-
+Once installed, this bundle adds the phpunit:generate-test-report command to your Symfony project.
 To generate a test report, run the following command:
 
 ```php bin/console phpunit:generate-test-report```
@@ -34,7 +33,7 @@ By default, the generated report will be saved in the project's root directory. 
 ## Example
 To generate the test report, run the command in your terminal:
 
-```php bin/console dashboard:generate-test-report```
+```php bin/console phpunit:generate-test-report```
 
 ## Requirements
 - Symfony 5.4 or later
