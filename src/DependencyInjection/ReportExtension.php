@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPUnitReportGeneratorBundle\DependencyInjection;
+namespace Zu\PHPUnitReportGeneratorBundle\DependencyInjection;
 
 use PHPUnitReportGeneratorBundle\Command\GenerateTestReportCommand;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

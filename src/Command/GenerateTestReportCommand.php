@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPUnitReportGeneratorBundle\Command;
+namespace Zu\PHPUnitReportGeneratorBundle\Command;
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Style\Alignment;

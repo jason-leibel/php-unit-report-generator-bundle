@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPUnitReportGeneratorBundle;
+namespace Zu\PHPUnitReportGeneratorBundle;
 
 use PHPUnitReportGeneratorBundle\DependencyInjection\ReportExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
