@@ -36,7 +36,7 @@ class GenerateTestReportCommand extends Command
     protected function configure(): void
     {
         $this
-            ->setName('dashboard:generate-test-report')
+            ->setName('phpunit:generate-test-report')
             ->setDescription('Generate an Excel report from a PHP Unit XML file');
     }
 
