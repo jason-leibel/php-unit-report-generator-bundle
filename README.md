@@ -4,14 +4,14 @@ This Symfony bundle provides a command to generate an Excel report from PHPUnit 
 ## Installation
 To install this bundle, use Composer:
 
-```composer require your-vendor/phpunit-report-generator-bundle```
+```composer require zucommunications/php-unit-report-generator-bundle```
 
 ## Usage
 Once installed, this bundle adds the dashboard:generate-test-report command to your Symfony project.
 
 To generate a test report, run the following command:
 
-```php bin/console dashboard:generate-test-report```
+```php bin/console phpunit:generate-test-report```
 
 This command will:
 
