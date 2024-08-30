@@ -19,6 +19,8 @@ use Symfony\Component\HttpKernel\KernelInterface;
 class GenerateTestReportCommand extends Command
 {
     private const REPORT_FILE_XML = __DIR__.'/report.xml';
+    private const SUCCESS_COLOR = '00FF00';
+    private const FAILURE_COLOR = 'FF0000';
 
     private ProgressBar $progressBar;
     private string $outputPath;
@@ -185,7 +187,7 @@ class GenerateTestReportCommand extends Command
         $sheet->setCellValue('H'.$row, $status);
 
         // Apply conditional formatting
-        $color = $hasFailure ? 'FF0000' : '00FF00'; // Red for failed, green for passed
+        $color = $hasFailure ? self::FAILURE_COLOR : self::SUCCESS_COLOR;
         $sheet->getStyle('H'.$row)->getFill()->setFillType(Fill::FILL_SOLID)->getStartColor()->setARGB($color);
         $sheet->getStyle('H'.$row)->getFont()->setColor(new Color(Color::COLOR_WHITE));
 
