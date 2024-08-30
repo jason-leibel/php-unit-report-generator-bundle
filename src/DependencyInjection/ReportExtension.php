@@ -2,7 +2,7 @@
 
 namespace Zu\PHPUnitReportGeneratorBundle\DependencyInjection;
 
-use PHPUnitReportGeneratorBundle\Command\GenerateTestReportCommand;
+use Zu\PHPUnitReportGeneratorBundle\Command\GenerateTestReportCommand;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Extension\Extension;

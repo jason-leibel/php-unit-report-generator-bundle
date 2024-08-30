@@ -2,7 +2,7 @@
 
 namespace Zu\PHPUnitReportGeneratorBundle;
 
-use PHPUnitReportGeneratorBundle\DependencyInjection\ReportExtension;
+use Zu\PHPUnitReportGeneratorBundle\DependencyInjection\ReportExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
