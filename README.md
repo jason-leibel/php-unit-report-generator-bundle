@@ -6,6 +6,13 @@ To install this bundle, use Composer:
 
 ```composer require zucommunications/php-unit-report-generator-bundle```
 
+You will need to add a yaml configuration in config/packages, below is an example:
+
+```
+report:
+  output_path: '/var/www/html/public'
+```
+
 ## Usage
 Once installed, this bundle adds the phpunit:generate-test-report command to your Symfony project.
 To generate a test report, run the following command:
