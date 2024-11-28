@@ -1,5 +1,18 @@
 # Changelog
 
+## [5.5.0](https://github.com/ZuCommunications/php-unit-report-generator-bundle/compare/v5.4.0...v5.5.0) (2024-11-28)
+
+
+### Features
+
+* add ability to generate release via workflow trigger ([a18d522](https://github.com/ZuCommunications/php-unit-report-generator-bundle/commit/a18d5225d1e1a0959056ffea41da3608671c4473))
+
+
+### Miscellaneous
+
+* include yaml requirement in README ([3a16fbe](https://github.com/ZuCommunications/php-unit-report-generator-bundle/commit/3a16fbe54a61121f4d28f37318802460b4536b01))
+* Update README.md ([65a42e0](https://github.com/ZuCommunications/php-unit-report-generator-bundle/commit/65a42e079bc1d29c6597456d254375b495256a98))
+
 ## 5.4.0 (2024-08-30)
 
 
