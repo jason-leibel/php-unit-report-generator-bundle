@@ -6,6 +6,17 @@ To install this bundle, use Composer:
 
 ```composer require zucommunications/php-unit-report-generator-bundle```
 
+You may need to add this to your `composer.json`:
+
+```
+"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ZuCommunications/php-unit-report-generator-bundle"
+        }
+    ],
+```
+
 You will need to add a yaml configuration in config/packages, below is an example:
 
 ```
