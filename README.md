@@ -4,7 +4,7 @@ This Symfony bundle provides a command to generate an Excel report from PHPUnit 
 ## Installation
 To install this bundle, use Composer:
 
-```composer require zucommunications/php-unit-report-generator-bundle```
+```composer require jason-leibel/php-unit-report-generator-bundle```
 
 You may need to add this to your `composer.json`:
 
@@ -12,7 +12,7 @@ You may need to add this to your `composer.json`:
 "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ZuCommunications/php-unit-report-generator-bundle"
+            "url": "https://github.com/jason-leibel/php-unit-report-generator-bundle"
         }
     ],
 ```
