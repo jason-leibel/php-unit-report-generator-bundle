@@ -54,6 +54,6 @@ To generate the test report, run the command in your terminal:
 ```php bin/console phpunit:generate-test-report```
 
 ## Requirements
-- Symfony 5.4 or later
-- PHP 7.4 or later
+- Symfony 6.4 or later
+- PHP 8 or later
 - PHPUnit 9.5 or later
